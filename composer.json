@@ -1,0 +1,11 @@
+{
+    "name": "jmasci/component-template",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joel Masci",
+            "email": "masci.joel@gmail.com"
+        }
+    ],
+    "require": {}
+}
