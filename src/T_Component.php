@@ -14,7 +14,9 @@ Trait T_Component{
      *
      * Adding a filter is sometimes (but not always) a good way to
      * modify the behaviour of a component while re-using an existing
-     * callback.
+     * callback. You can often achieve the same thing with a few
+     * more lines of code by wrapping $this->callable in another
+     * callable.
      *
      * @var array
      */

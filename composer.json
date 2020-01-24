@@ -1,5 +1,6 @@
 {
     "name": "jmasci/component-template",
+    "description": "Base classes for creating flexible HTML rendering templates consisting of overridable callable components.",
     "type": "library",
     "authors": [
         {
@@ -7,5 +8,10 @@
             "email": "masci.joel@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "JMasci\\ComponentTemplate\\": "src/"
+        }
+    },
     "require": {}
 }
